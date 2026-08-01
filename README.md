@@ -137,7 +137,6 @@ Key relationships:
 BOOKORA_FINAL/
   app.py
   database_schema.sql
-  firebase-credentials.json
   movies-data.json
   requirements.txt
   seed_movies.py
@@ -174,8 +173,8 @@ BOOKORA_FINAL/
 
 ### Clone and Enter Project
 ```bash
-git clone <your-repo-url>
-cd BOOKORA_FINAL
+git clone https://github.com/mann1108/bookora-movie-booking-system.git
+cd bookora-movie-booking-system
 ```
 
 ### Create Virtual Environment
@@ -276,22 +275,7 @@ python seed_shows.py
 python app.py
 ```
 
-## 20) Screenshots
-
-Add screenshots here when available:
-
-- Home page
-  - ![Home Page](screenshots/home-page.png)
-- Movie details page
-  - ![Movie Details](screenshots/movie-details.png)
-- Shows page
-  - ![Shows](screenshots/shows.png)
-- Seat selection page
-  - ![Seat Selection](screenshots/seat-selection.png)
-- Bookings page
-  - ![My Bookings](screenshots/my-bookings.png)
-
-## 21) Future Improvements
+## 20) Future Improvements
 
 - Implement backend Firebase token verification endpoint for phone-auth flow.
 - Move DB credentials from hardcoded values to environment variables.
@@ -299,7 +283,7 @@ Add screenshots here when available:
 - Add role-based admin tools for content/show management.
 - Improve transaction handling for concurrent seat booking race conditions.
 
-## 22) Author
+## 21) Author
 
 - Name: Mann Patel
 - Project: Bookora - Movie Ticket Booking System
