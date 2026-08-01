@@ -301,9 +301,9 @@ Add screenshots here when available:
 
 ## 22) Author
 
-- Name: Your Name
+- Name: Mann Patel
 - Project: Bookora - Movie Ticket Booking System
-- GitHub: https://github.com/your-username
+- GitHub: https://github.com/mann1108
 
 ---
 
